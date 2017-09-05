@@ -1,0 +1,243 @@
+.footer {
+    
+    position: fixed;
+}
+
+#name {
+    float: left;
+    font-family: 'VT323';
+    font-size: 50px;
+    color: white;
+}
+
+.nav-pills {
+    margin-top: 5px;
+    float: right;
+}
+
+.container-name {
+    width:310px;
+    height: 50px;
+    background-color:#569fef;
+    float:left;
+    left: -63px;
+    -webkit-animation-name: 'namebackground'; 
+    -webkit-animation-duration: 10s; 
+    animation-name: 'namebackground';
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes namebackground {
+    0%   {background-color: #569fef;}
+    20%  {background-color: #337ab7;}
+    40%  {background-color:#1b4d79;}
+    60% {background-color: #2469a7;}
+    80% {background-color: #337ab7;}
+    100% {background-color: #569fef;}
+}
+
+/* Standard syntax */
+@keyframes namebackground {
+    0%   {background-color: #569fef;}
+    20%  {background-color: #337ab7;}
+    40%  {background-color: #2469a7;}
+    60% {background-color: #1b4d79;}
+    80% {background-color: #337ab7;}
+    100% {background-color: #569fef;}
+}
+
+p {
+    font-family: 'Mada';
+}
+
+.content { 
+    background-color: #f8f8f8;
+    border:solid 1px;
+    border-color: #e8e8e8;
+    min-height: 531px;
+    margin-bottom: 80px;
+}
+
+.icon-size {
+    width: 61px;
+    height: 61px;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-family: 'Mada';
+    font-weight: bold;
+    color: #569fef;
+}
+h1,h3 {
+    font-family: 'Mada';
+    font-weight: bold;
+    color: #337ab7;
+
+}
+
+h6 {
+    font-family: 'Mada';
+    color: #337ab7;
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+html,body{
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    overflow: auto;
+}
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+
+.footer{
+    height: 60px; 
+    width: 100%;
+    background-color: #f8f8f8;
+    left: 0px;
+    bottom: 0px;
+    border: solid 1px;
+    border-color: #e8e8e8;
+    overflow: hidden;
+}
+
+.text-muted {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sidebarpic {
+    width:200px;
+    height: 120px;
+    margin-left:22px;
+    margin-top:-4px;
+    margin-bottom:10px;
+}
+
+#aboutme-img {
+    width: 500px;
+    height: 350px;
+    float: left;
+    display:inline-block;
+    margin-right: 25px;
+    margin-bottom: 3px;
+}
+
+#image-information {
+    width: 530px;
+    height: 400px;
+    float: left;
+    padding-right:10px;
+    font-size: 12px;
+}
+
+mark {
+    background-color: #569fef;
+    color: white;
+    font-family: 'VT323';
+    font-size: 19px;
+}
+
+.firstname, .lastname {
+    width: 650px;
+}
+textarea {
+    width: 650px;
+    height: 200px;
+    resize: none;
+}
+
+input {
+    width: 650px;
+    font-weight: none;
+}
+
+label {
+    font-weight: none;
+}
+
+.portfolio-images {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#wrapper {
+    position: relative;
+}
+
+.port-banner {
+    width: 300px;
+    height: 64px;
+    background-color:#569fef;
+    font-family: 'VT323';
+    font-size:64px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.port-banner1 {
+    top:228px;
+    left: 61px;
+}
+
+.port-banner2 {
+    top:228px;
+    right: 74px;
+}
+
+.port-banner3 {
+    bottom:39px;
+    left: 63px;
+}
+
+.port-banner4 {
+    bottom:39px;
+    right: 72px;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.name-container {
+    position:absolute;
+    left: 1px;
+    width:100%;
+}
+.nav, .nav-pills, .navbar-right {
+    width:100%;
+    position: absolute;
+    left: 1px;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px)
